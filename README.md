@@ -24,3 +24,24 @@ La publicación de este repositorio tiene como finalidad abrir el proyecto a la 
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT.
+## Arquitectura general del proyecto
+
+La arquitectura del Juridico Compliance Framework se organiza en módulos claros:
+
+- **src/core.py**  
+  - Contiene el motor principal `ComplianceEngine`.
+  - Se encarga del análisis normativo y procesamiento de textos legales.
+
+- **src/__init__.py**  
+  - Prepara el paquete para futuras extensiones.
+
+- **examples/**  
+  - Incluye ejemplos prácticos de uso del motor jurídico.
+  - `compliance_matrix_example.md`: ejemplo de matriz de cumplimiento.
+  - `legal_analysis_example.py`: ejemplo técnico de análisis normativo.
+
+- **ROADMAP.md**  
+  - Define la evolución planificada del proyecto.
+
+- **TODO.md**  
+  - Lista de tareas pendientes y prioridades de desarrollo.
